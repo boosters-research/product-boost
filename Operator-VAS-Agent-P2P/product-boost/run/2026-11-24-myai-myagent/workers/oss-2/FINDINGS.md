@@ -48,8 +48,6 @@ Score inputs, so the means can be checked:
 - SSL_Anti-spoofing: same pattern as AASIST. Last push 2023-09-26. MIT text opened. Mean 2.17. Below 2.5.
 - SASV2 baseline bus 2: challenge baseline, 29 stars, 0 open issues. Recency 1: `pushed_at` 2025-11-12. License 5: MIT on the API record. Security 2. Fork 3. Release 1. Mean (2+1+5+2+3+1)/6 = 14/6 = 2.33. Below 2.5.
 
-pyannote viability in the table above is corrected here to **3.50**. The table cell was left as first-pass arithmetic; this paragraph is the one to use.
-
 Viability under 2.5, which the scout protocol treats as “do not recommend as a core dependency”: AASIST 2.17, SSL_Anti-spoofing 2.17, SASV2 baseline 2.33. Kaldi at 2.83 is above that line and is still a poor Audio Signature candidate because its opened ASVspoof numbers are EERs from 2019 and the repository’s last push is 2025-09-22.
 
 ## What each project publishes
